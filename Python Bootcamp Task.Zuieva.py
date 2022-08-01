@@ -5,7 +5,7 @@ hash_string = hashlib.md5(s.encode())
 hash_string = hashlib.md5(s.encode())
 print(hash_string.hexdigest())
 
-#2 Tik Tok video to gif 
+#2. Tik Tok video to gif 
 from moviepy.editor import VideoFileClip
 import os
 import urllib
